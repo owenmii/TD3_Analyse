@@ -10,10 +10,19 @@ public class App {
         System.out.println(hello());
     }
 
+    /*
+     * hello without parameter
+     * @return "Hello World!"
+     */
     public static String hello() {
         return "Hello World!";
     }
 
+    /*
+     * hello with parameter
+     * @param message
+     * @return message
+     */
     public static String hello(String param) {
         return param;
     }
